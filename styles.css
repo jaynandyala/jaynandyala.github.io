@@ -45,6 +45,9 @@ body{
 .padding40{
   padding: 40px;
 }
+.padding10{
+  padding: 10px;
+}
 .white-links{
   color: #383838;
   padding-top: 10px;
@@ -65,3 +68,22 @@ body{
   float: left;
   margin: 11px;
 }
+#portfolio{
+  background: linear-gradient(to right top,#128a37, #002e67);
+  color: white;
+}
+.project-tile {
+  background: white;
+  width: calc(50% - 20px);
+  color: black;
+  margin:10px;
+  transition: all .5s
+}
+.project-tile:hover{
+  box-shadow: 0 0 20px #333;
+  transition: all .5s
+}
+.project-tile img{
+  width: 100%;
+}
+
