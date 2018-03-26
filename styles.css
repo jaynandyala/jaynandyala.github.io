@@ -33,7 +33,7 @@ body{
 }
 .full-viewport{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 #skills{
   background: #333;
@@ -62,7 +62,7 @@ body{
   color: black;
   background: white;
   padding: 20px 40px;
-  font-weight: BOLDER;
+  font-weight: bold;
   font-family: Raleway;
   box-shadow: 0 0 10px #000;
   float: left;
@@ -87,3 +87,33 @@ body{
   width: 100%;
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .personal-intro{
+    padding-top: 40px;
+  }
+  .project-tile{
+    width: auto;
+  }
+  .skill-tile{
+    width: 90%;
+  }
+  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .personal-intro{
+    padding-top: 40px;
+  }
+  .project-tile{
+    width: auto;
+  }
+  .skill-tile{
+    width: 90%;
+  }
+  
+}
