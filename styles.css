@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  font-family: Raleway;
+}
+#intro{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #d0d0ab, #b7c382, #95b75d, #6bab3b, #27a018);
+}
+.image-circle{
+  width: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 3px 3px 13px #646464;
+}
+.image{
+  width:100%;
+}
+.personal-intro{
+  padding-top: calc(50vh - 100px);
+  margin:auto;
+}
+.fleft{
+  float: left;
+}
+.role-list{
+  font-size: 1.3rem;
+  color:#000;
+}
+.name{
+  font-weight: 700;
+  font-family: Raleway;
+}
+.full-viewport{
+  width: 100vw;
+  height: 100vh;
+}
+#skills{
+  background: #333;
+  color: white;
+}
+.center{
+  text-align: center;
+}
+.padding40{
+  padding: 40px;
+}
+.white-links{
+  color: #383838;
+  padding-top: 10px;
+}
+.white-links a{
+  color: #383838;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+.skill-tile {
+  text-align: center;
+  color: black;
+  background: white;
+  padding: 20px 40px;
+  font-weight: BOLDER;
+  font-family: Raleway;
+  box-shadow: 0 0 10px #000;
+  float: left;
+  margin: 11px;
+}
