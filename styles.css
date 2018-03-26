@@ -115,7 +115,12 @@ body{
   .skill-tile{
     width: 90%;
   }
-  
+  .image-circle{
+    margin: 30px 40px;
+  }  
+  body{
+    text-align: center;
+  }
 }
 @media only screen 
 and (min-device-width : 375px) 
@@ -130,7 +135,12 @@ and (max-device-width : 667px) {
     width: 90%;
   }
   
-
+  .image-circle{
+    margin: 30px 40px;
+  }
+  body{
+    text-align: center;
+  }
 }
 
 
@@ -147,5 +157,10 @@ and (-webkit-device-pixel-ratio : 3) {
   .skill-tile{
     width: 90%;
   }
-  
+  .image-circle{
+    margin: 30px 40px;
+  }  
+  body{
+    text-align: center;
+  }
 }
